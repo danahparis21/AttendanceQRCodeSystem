@@ -92,7 +92,7 @@ public class StudentDashboard extends JFrame {
         });
         
         nameLabel = new JLabel("Name");
-        nameLabel.setBounds(370, 530,200,20);
+        nameLabel.setBounds(370, 530,400,20);
         nameLabel.setFont(new Font("Arial", Font.BOLD, 20));
         nameLabel.setForeground(Color.WHITE);
          background.add(nameLabel);
@@ -502,7 +502,7 @@ private void saveQrAt(String email) {
     public static void main(String[] args) {
         // Example usage (replace with actual connection and student ID after login)
         Connection dbConnection = Database.connect(); // Implement this method
-        int loggedInStudentId = 2; // Get this from the login system
+        int loggedInStudentId = 11; // Get this from the login system
         new StudentDashboard(loggedInStudentId, dbConnection);
     }
 }
