@@ -84,6 +84,7 @@ public class AdminDashboard extends JFrame {
         viewQR.addActionListener(e -> new ViewQr().setVisible(true));
         markAttendance.addActionListener(e -> new MarkAttendance().setVisible(true));
         viewAttendance.addActionListener(e -> new ViewAttendance().setVisible(true));
+        //attendanceReport.addActionListener(e -> new DataAnalytics().setVisible(true));
 
         // BOTTOM PANEL
         JPanel bottomPanel = new JPanel();

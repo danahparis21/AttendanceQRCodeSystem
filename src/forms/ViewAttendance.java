@@ -44,7 +44,7 @@ public class ViewAttendance extends JFrame {
     JLabel header, lblFrom, lblTo, lblPresent, lblPresentCount, lblAbsent, lblAbsentCount;
     JDateChooser startDateChooser,endDateChooser;
     JCheckBox chkContact, chkAddress, chkRegID;
-    JButton resetButton;
+    JButton resetButton, showStatistics;
 
 
     public ViewAttendance() {
@@ -176,6 +176,10 @@ public class ViewAttendance extends JFrame {
         resetButton = createStyledButton("Reset Filters", 100, 300);
         backgroundPanel.add(resetButton);
         resetButton.addActionListener(e -> clearFields());
+
+        showStatistics = createStyledButton ("Show Statistics", 100, 350);
+        backgroundPanel.add(showStatistics);
+        showStatistics.addActionListener(e -> new DataAnalytics());
 
         fetchUser();
         setVisible(true);
