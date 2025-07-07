@@ -1,31 +1,31 @@
-# 🎓 Attendance QR System
+# Attendance QR System
 
 A student attendance tracking system using **QR code scanning**, built with **Java Swing**. This application streamlines classroom attendance by allowing admins to register students, generate QR codes, and scan them using a webcam to log attendance in real time.
 
-> ✅ Built using **Java Swing**, webcam integration, and QR code generation libraries.
+> Built using **Java Swing**, webcam integration, and QR code generation libraries.
 
 ---
 
 ## 📑 Table of Contents
 
-- [🧠 Overview](#-overview)
-- [🎯 Objectives](#-objectives)
-- [🛠️ Tech Stack](#-tech-stack)
-- [🗂️ System Features](#-system-features)
-- [📸 Screenshots](#-screenshots)
-- [🧪 How to Run](#-how-to-run)
-- [📬 Project Members](#-project-members)
-- [📄 License](#-license)
+- [Overview](#-overview)
+- [Objectives](#-objectives)
+- [Tech Stack](#-tech-stack)
+- [System Features](#-system-features)
+- [Screenshots](#-screenshots)
+- [How to Run](#-how-to-run)
+- [Project Members](#-project-members)
+- [License](#-license)
 
 ---
 
-## 🧠 Overview
+## Overview
 
 The **Attendance QR System** enables efficient and contactless attendance tracking using QR codes and webcam scanning. Admins can register students, generate and store unique QR codes, and track attendance records. Students can log in to view their details and attendance status.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Replace manual attendance with **QR-based scanning**
 - Allow **admins to register** students and generate QR codes
@@ -36,7 +36,7 @@ The **Attendance QR System** enables efficient and contactless attendance tracki
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tech                        | Purpose                             |
 |-----------------------------|-------------------------------------|
@@ -48,9 +48,9 @@ The **Attendance QR System** enables efficient and contactless attendance tracki
 
 ---
 
-## 🗂️ System Features
+## System Features
 
-### 🧑 Admin Dashboard
+### Admin Dashboard
 
 - Register students with details + student code  
 - Upload student profile photos
@@ -61,14 +61,14 @@ The **Attendance QR System** enables efficient and contactless attendance tracki
 - Update student details anytime  
 - Export data for record-keeping  
 
-### 🎓 Student Dashboard
+### Student Dashboard
 
 - View profile and student ID  
 - Access their unique QR code  
 - View personal attendance record  
 
 ---
-## 📸 Screenshots
+## Screenshots
 <details>
 <summary>Click to view screenshots 📷</summary>
 
@@ -100,16 +100,6 @@ The **Attendance QR System** enables efficient and contactless attendance tracki
 
 ---
 
-## 🧪 How to Run
-
-1. Clone or download this repository  
-2. Import SQL file into your MySQL server  
-3. Update DB credentials in `DBConnection.java`  
-4. Open project in NetBeans  
-5. Run `Main.java` to launch
-
----
-
 ## 📬 Contact & Credits
 
 Developed as a finals project by **Danah Paris**
@@ -118,6 +108,6 @@ Developed as a finals project by **Danah Paris**
 
 📌 School: **BatStateU - ARASOF Nasugbu** | Course: **BSIT**
 
-## 📄 License
+## License
 This project was built for educational purposes.
 Feel free to explore and learn, but please credit when using this project.
